@@ -4,6 +4,7 @@ import Showcase from './components/Showcase';
 import Advantages from './components/Advantages';
 import Portfolio from './components/Portfolio';
 import Services from './components/Servises';
+import Faq from './components/Faq';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Advantages />
       <Portfolio />
       <Services />
+      <Faq />
     </div>
   );
 }

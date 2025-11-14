@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Showcase from './components/Showcase';
 import Advantages from './components/Advantages';
 import Portfolio from './components/Portfolio';
+import Services from './components/Servises';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Showcase />
       <Advantages />
       <Portfolio />
+      <Services />
     </div>
   );
 }
